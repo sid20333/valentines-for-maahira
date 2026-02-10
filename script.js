@@ -37,11 +37,14 @@ envelope.addEventListener('click', () => {
 // 1. Put image files (jpg/png) in the photos/ folder
 // 2. Update the PHOTOS array below with filenames and captions
 const PHOTOS = [
-  // { src: 'photos/photo1.jpg', caption: 'Our first date ♥' },
-  // { src: 'photos/photo2.jpg', caption: 'That amazing sunset' },
-  // { src: 'photos/photo3.jpg', caption: 'My favorite picture of us' },
-  // { src: 'photos/photo4.jpg', caption: 'Adventure time!' },
-  // { src: 'photos/photo5.jpg', caption: 'You make me so happy' },
+  { src: 'photos/IMG_1400.JPG', caption: '♥' },
+  { src: 'photos/IMG_1481.JPG', caption: '♥' },
+  { src: 'photos/IMG_1564.JPG', caption: '♥' },
+  { src: 'photos/IMG_2610.JPG', caption: '♥' },
+  { src: 'photos/IMG_2998.JPG', caption: '♥' },
+  { src: 'photos/IMG_3025.JPG', caption: '♥' },
+  { src: 'photos/IMG_7834.JPG', caption: '♥' },
+  { src: 'photos/IMG_9709.JPG', caption: '♥' },
 ];
 
 let currentSlide = 0;
