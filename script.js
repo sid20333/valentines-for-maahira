@@ -131,8 +131,8 @@ function runAway() {
 
   btnNo.style.left = newX + 'px';
   btnNo.style.top = newY + 'px';
-  btnNo.style.fontSize = Math.max(0.6, 1.1 - noCount * 0.05) + 'rem';
-  btnNo.style.padding = `${Math.max(6, 14 - noCount)}px ${Math.max(16, 36 - noCount * 2)}px`;
+  btnNo.style.fontSize = '1.3rem';
+  btnNo.style.padding = '16px 42px';
 
   noHint.textContent = noMessages[noCount % noMessages.length];
   noCount++;
